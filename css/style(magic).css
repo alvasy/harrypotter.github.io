@@ -1,0 +1,79 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+	
+a {
+	display: block;
+	transition-duration: 0.8s;
+	transition-property: transform;
+	overflow:hidden;
+	transform: rotate(30deg);
+ 	filter: brightness(30%);
+	
+
+}
+a:hover {
+	transform: rotate(0deg);
+	filter: brightness(200%);
+
+}
+a:active {
+	opacity:0;
+	transition: .1s;
+}
+
+h1 {
+	width: 50%;
+	padding-top: 180px;
+	padding-left: 25%;
+}
+
+body {
+	
+	
+	
+
+}
+header {
+	width: 5%;
+	justify-content: left;
+	left:1px
+	padding: 0;
+	
+}
+.wolf {
+	padding-left: 15%;
+	padding-top: 100px;
+	width: 50%;
+	
+}
+.rightpic {
+	float: right;
+	padding-top: 320px;
+	padding-right: 50px;
+	
+}
+.snaker {
+	padding-left: 15%;
+	padding-top: 100px;
+	width: 50%;
+}
+.pik2 {
+	float: right;
+	padding-top: 300px;
+	padding-right: 150px;
+	
+}
+.pik3 {
+	float: right;
+	padding-top: 350px;
+	padding-right: 0px;
+}
+.blackmagic {
+	padding-left: 15%;
+	padding-top: 100px;
+	width: 50%;
+	margin-bottom: 280px;
+}

@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	display: block;
+	transition-duration: 0.8s;
+	transition-property: transform;
+	overflow:hidden;
+	transform: rotate(30deg);
+ 	filter: brightness(30%);
+	
+
+}
+a:hover {
+	transform: rotate(0deg);
+	filter: brightness(200%);
+
+}
+a:active {
+	opacity:0;
+	transition: .1s;
+}
+.HP {
+	align-content: center;
+	clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    line-height: 24px;
+    margin-bottom: 50px;
+    font-family: roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+img {
+	max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    margin-bottom: 18px;
+    padding-top: 50px;
+}
+h2 {
+	padding-top: 120px;
+	font-size: 36px;
+	text-align: center;
+
+}
+h3 {
+	font-size: 28px;
+	text-align: center;
+	padding-top: 30px;
+}
+.RW {
+	align-content: center;
+	clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.GG {
+	align-content: center;
+	clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+}

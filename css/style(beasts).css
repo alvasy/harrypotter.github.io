@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	display: block;
+	transition-duration: 0.8s;
+	transition-property: transform;
+	overflow:hidden;
+	transform: rotate(30deg);
+ 	filter: brightness(30%);
+	
+
+}
+a:hover {
+	transform: rotate(0deg);
+	filter: brightness(200%);
+
+}
+a:active {
+	opacity:0;
+	transition: .1s;
+}
+table {
+	
+    overflow:hidden;
+    border:none;
+    background:#595959;
+    width:70%;
+    margin:5% auto 0;
+    opacity: 0.3;
+  	border-radius:15px;
+  	justify-content: center;
+  	margin-bottom: 100px;
+    
+}
+ 
+th, td {
+	
+    padding:18px 28px 18px; 
+    text-align:center; 
+    padding-top:22px; 
+    background:#454545;
+    
+}
+ 
+
+ 
+ 
+
+ 
+
+ 
